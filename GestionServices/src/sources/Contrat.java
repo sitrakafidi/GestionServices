@@ -2,27 +2,27 @@ package sources;
 
 public class Contrat {
 	
-	private int min; //hour
-	private int max; //hour
+	private float min; //hour
+	private float max; //hour
 	
-	public Contrat(int min, int max){
+	public Contrat(float min, float max){
 		this.min = min;
 		this.max = max;
 	}
 
-	public int getMin() {
+	public float getMin() {
 		return min;
 	}
 
-	public void setMin(int min) {
+	public void setMin(float min) {
 		this.min = min;
 	}
 
-	public int getMax() {
+	public float getMax() {
 		return max;
 	}
 
-	public void setMax(int max) {
+	public void setMax(float max) {
 		this.max = max;
 	}
 	

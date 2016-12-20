@@ -2,9 +2,9 @@ package sources;
 
 public abstract class Demande {
 	protected boolean isPublic ;
-	protected int heures ;
+	protected float heures ;
 	
-	public Demande(boolean isPublic, int heures){
+	public Demande(boolean isPublic, float heures){
 		this.heures = heures;
 		this.isPublic = isPublic;
 		
@@ -19,11 +19,11 @@ public abstract class Demande {
 		this.isPublic = isPublic;
 	}
 
-	public int getHeures() {
+	public float getHeures() {
 		return heures;
 	}
 
-	public void setHeures(int heures) {
+	public void setHeures(float heures) {
 		this.heures = heures;
 	}
 	
