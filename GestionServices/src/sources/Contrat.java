@@ -2,8 +2,8 @@ package sources;
 
 public class Contrat {
 	
-	private int min;
-	private int max;
+	private int min; //hour
+	private int max; //hour
 	
 	public Contrat(int min, int max){
 		this.min = min;
